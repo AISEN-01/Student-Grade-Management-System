@@ -1,7 +1,7 @@
 from showm import show_menu
 from add import add_student
 from addG import add_grades
-
+from addAVG import user_Compute
 while True:
     show_menu()
     user_input = int(input("What you want to do?"))
@@ -10,7 +10,8 @@ while True:
     elif user_input == 2:
         add_grades()
     elif user_input == 3:
-        pass
+        success, message = user_Compute()
+        print(message)
     elif user_input == 4:
         break
     else:
