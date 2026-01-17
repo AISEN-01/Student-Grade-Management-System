@@ -5,7 +5,8 @@ def show_menu():
     print("║ 1. Add Student                   ║")
     print("║ 2. add grades                    ║")
     print("║ 3. compute the average           ║")
-    print("║ 4. Exit                          ║")
+    print("║ 4. show top student              ║")
+    print("║ 5. Exit                          ║")
     print("║                                  ║")
     print("╚══════════════════════════════════╝")
 
